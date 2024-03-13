@@ -1,4 +1,42 @@
-/* Your code here */
+.wgs{
+  height: 482px;
+  width: 640px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs_mole-head{
+  margin-top: 77%;
+  width: 376px;
+  height: 356px;
+  position: absolute;
+  left: 109px;
+  right: 155px;
+  transition-property: margin-top;
+  transition-duration: 0.25ms;
+}
+
+.wgs_dirt-pile {
+  width: 640px;
+  height: 220px;
+  position: absolute;
+  top: 262px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.wgs_mole-head--hidden {
+  margin-top: 77%;
+  width: 376px;
+  height: 356px;
+  position: absolute;
+  left: 109px;
+  right: 155px;
+  transition-property: margin-top;
+  transition-duration: 0.25ms;
+}
 
 
 
